@@ -14,8 +14,6 @@ btnHamburger.addEventListener("click", function() {
       element.classList.remove('fade-in');
       element.classList.add('fade-out');
     });
-    overlay.classList.remove('fade-in');
-    overlay.classList.add('fade-out');
   }
   else {  // Open hamburger menu
     body.classList.add('noscroll');
@@ -24,7 +22,5 @@ btnHamburger.addEventListener("click", function() {
       element.classList.remove('fade-out');
       element.classList.add('fade-in');
     });
-    overlay.classList.remove('fade-out');
-    overlay.classList.add('fade-in');
   }
 });

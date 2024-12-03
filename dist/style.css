@@ -609,4 +609,8 @@ button:hover::before, .button:hover::before {
     align-self: end;
     justify-self: end;
   }
+}
+.footer .attribution {
+  margin-top: 4rem;
+  font-size: 0.875rem;
 }/*# sourceMappingURL=style.css.map */
